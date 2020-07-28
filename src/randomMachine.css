@@ -1,0 +1,8 @@
+.fa-quote-right{
+    position: absolute;
+    top:-25px;
+    right:0;
+    font-size: 20em;
+    opacity: 0.1;
+    color: white;
+}
