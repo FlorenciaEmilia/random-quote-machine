@@ -1,42 +1,49 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-    
-    
+* {
+  font-family: 'Open Sans', sans-serif;
 }
 
-#quote{
-    height: 80vh;
-    margin-top: 0;
-    color:white;
-  
+#quote-box blockquote {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5em;
 }
 
-blockquote{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height:80vh;
-    width:50vw;
-    margin:auto;
-    font-size: 1.5em;
+#quote-box #quote {
+  height: 80vh;
+  margin-top: 0;
+  color: white;
 }
 
-footer{
-    font-family: 'Abril Fatface', cursive;
+#quote-generator #new-quote,
+#quote-generator #tweet-quote {
+  margin: 2em 1em 2em 1em;
+  border: 4px solid;
+  padding: 1em;
+  color: white;
+  outline: none;
 }
 
-#new-quote, #tweet-quote{
-    margin: 2em 1em 2em 1em;
-    border: 4px solid;
-    padding: 1em;
-    color: white;
-    outline: none;
-    
+#quote-generator #new-quote {
+  font-weight: bolder;
+  font-size: 1em;
 }
 
-#new-quote{
-    font-weight: bolder;
-    font-size: 1em;
+footer {
+  font-family: 'Abril Fatface', cursive;
 }
+/*# sourceMappingURL=Quote.css.map */
